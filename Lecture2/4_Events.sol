@@ -71,11 +71,4 @@ contract FundMovements {
         emit FundsPaid(msg.sender, friendAddress, amount); //why is this wrong?
         friendAddress.transfer(amount);
     }
-
-    function payMyFriend(address payable friendAddress, uint256 amount) public {
-        require(balances[msg.sender] >= amount, "Insufficient funds");
-        friendAddress.transfer(amount);
-        emit FundsPaid(msg.sender, friendAddress, amount);
-    }
-
 }
