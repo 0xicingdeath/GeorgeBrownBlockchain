@@ -1,4 +1,4 @@
-#SmartContractEssentials  
+# SmartContractEssentials  
 
 Feel free to reach me at natchin08@gmail.com if you have any questions about lecture content. 
 
