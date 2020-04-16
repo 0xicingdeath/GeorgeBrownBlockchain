@@ -1,0 +1,100 @@
+{
+  "args": [
+    100
+  ],
+  "className": "SimpleStorage",
+  "code": "608060405234801561001057600080fd5b506040516020806101178339810180604052602081101561003057600080fd5b505160005560d4806100436000396000f3fe6080604052348015600f57600080fd5b50600436106058577c010000000000000000000000000000000000000000000000000000000060003504638b84925b8114605d578063ac588675146075578063e5df0919146091575b600080fd5b60636097565b60408051918252519081900360200190f35b608f60048036036020811015608957600080fd5b5035609d565b005b606360a2565b60005490565b600055565b6000548156fea165627a7a72305820e56a6832025576aa8d06b07d327a342e6bdd1815141bc2c4e04871b51a8ded990029",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b50600436106058577c010000000000000000000000000000000000000000000000000000000060003504638b84925b8114605d578063ac588675146075578063e5df0919146091575b600080fd5b60636097565b60408051918252519081900360200190f35b608f60048036036020811015608957600080fd5b5035609d565b005b606360a2565b60005490565b600055565b6000548156fea165627a7a72305820e56a6832025576aa8d06b07d327a342e6bdd1815141bc2c4e04871b51a8ded990029",
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b50600436106058577c010000000000000000000000000000000000000000000000000000000060003504638b84925b8114605d578063ac588675146075578063e5df0919146091575b600080fd5b60636097565b60408051918252519081900360200190f35b608f60048036036020811015608957600080fd5b5035609d565b005b606360a2565b60005490565b600055565b6000548156fea165627a7a72305820",
+  "linkReferences": {},
+  "swarmHash": "e56a6832025576aa8d06b07d327a342e6bdd1815141bc2c4e04871b51a8ded99",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "42400",
+      "executionCost": "20166",
+      "totalCost": "62566"
+    },
+    "external": {
+      "customInteger()": "422",
+      "getInteger()": "378",
+      "setInteger(uint256)": "20191"
+    }
+  },
+  "functionHashes": {
+    "customInteger()": "e5df0919",
+    "getInteger()": "8b84925b",
+    "setInteger(uint256)": "ac588675"
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getInteger",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8b84925b"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newInt",
+          "type": "uint256"
+        }
+      ],
+      "name": "setInteger",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xac588675"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "customInteger",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xe5df0919"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_newInt",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "filename": "/Users/nat/GitHub/GeorgeBrownBlockchain/DesignPatterns/smartContract/.embark/contracts/SimpleStorage.sol",
+  "originalFilename": "contracts/SimpleStorage.sol",
+  "path": "/Users/nat/GitHub/GeorgeBrownBlockchain/DesignPatterns/smartContract/contracts/SimpleStorage.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": true,
+  "_gasLimit": 6000000,
+  "error": false,
+  "deploymentAccount": "0xD8d3e65ea7f265016Cc49952569326aF0Cb63D9e",
+  "realArgs": [
+    100
+  ],
+  "address": "0xCc533B95B8b95B6d7FB8830F5445e11937586D45",
+  "deployedAddress": "0xCc533B95B8b95B6d7FB8830F5445e11937586D45"
+}

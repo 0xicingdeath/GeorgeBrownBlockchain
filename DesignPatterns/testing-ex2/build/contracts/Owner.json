@@ -1,0 +1,37 @@
+{
+  "className": "Owner",
+  "args": [],
+  "code": "6080604052348015600f57600080fd5b5060008054600160a060020a03191633179055603580602f6000396000f3fe6080604052600080fdfea165627a7a723058208825b9229433318ee12fc85c188afbb6d1460304af039b7ca1116bf68a8296630029",
+  "runtimeBytecode": "6080604052600080fdfea165627a7a723058208825b9229433318ee12fc85c188afbb6d1460304af039b7ca1116bf68a8296630029",
+  "realRuntimeBytecode": "6080604052600080fdfea165627a7a72305820",
+  "linkReferences": {},
+  "swarmHash": "8825b9229433318ee12fc85c188afbb6d1460304af039b7ca1116bf68a829663",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "10600",
+      "executionCost": "20358",
+      "totalCost": "30958"
+    }
+  },
+  "functionHashes": {},
+  "abiDefinition": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "filename": "/Users/nat/GitHub/GeorgeBrownBlockchain/DesignPatterns/testing-ex2/.embark/contracts/SimpleStorage.sol",
+  "originalFilename": "contracts/SimpleStorage.sol",
+  "path": "/Users/nat/GitHub/GeorgeBrownBlockchain/DesignPatterns/testing-ex2/contracts/SimpleStorage.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": true,
+  "_gasLimit": 6000000,
+  "error": false,
+  "deploymentAccount": "0xB7179BA4b7F5259B137Dde410A3573E70a67AEE9",
+  "realArgs": [],
+  "address": "0x96E3A96cA6bf933fb9eCaD16f8E120c626eE2153",
+  "deployedAddress": "0x96E3A96cA6bf933fb9eCaD16f8E120c626eE2153"
+}
